@@ -16,7 +16,7 @@ def paginate(data,page,limit):
 #Home route
 @app.route('/') #app.route(rule, options)
 def home():
-    return render_template('lms1.html')
+    return render_template('lms.html')
 
 #CRUD operations for books
 #Get all the books exists in the memory
