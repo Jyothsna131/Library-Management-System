@@ -21,24 +21,32 @@ This project is a simple Library Management System built using Flask, providing 
 - **Language:** Python 3.
 
 #
-## Installation and Setup
+## Setup and Execution
 ### Pre-requisites
 - Python 3.x installed on your system
 ### Steps to Run the Project
-1. Clone this repository
-   ```
-   git clone <repository-url>
-   cd library-management-system
-   ```
 
-2. Install dependencies:
-   ```
-   pip install flask
-   ```
-3. Run the application:
-   ```
-   python LMS_app.py
-   ```
+1. **Download the following files**:
+   - `lms.html`
+   - `LMS_app.py`
+
+2. **Upload these files to PyCharm**:
+   - Open PyCharm and create a new project.
+   - Upload both the `lms.html` and `LMS_app.py` files to your project.
+
+3. **Place the `lms.html` file inside the `templates` directory**:
+   - In your project folder, create a folder named `templates` if it doesn't already exist.
+   - Move the `lms.html` file into the `templates` folder.
+
+4. **Run the Application**:
+   - Run the `LMS_app.py` file in PyCharm. 
+   - The Flask API will start, and you can access the application in your browser.
+
+## Note:
+Ensure that the Flask package is installed in your environment. If it's not already installed, you can install it using:
+```bash
+pip install flask
+
 4. Access the application: Open a browser and navigate to:
     [http:://127.0.0.1:5000](url)
 
